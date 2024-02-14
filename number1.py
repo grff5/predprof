@@ -1,6 +1,6 @@
 import csv 
 '''
-Считывание файла в двумерный массив
+Считывание файл в двумерный массив
 '''
 f = open('game.txt', encoding = 'utf-8')
 data=[x.strip().split('$') for x in f]
