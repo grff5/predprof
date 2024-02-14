@@ -1,5 +1,9 @@
 import csv
 
+
+'''
+функция хэширования
+'''
 def hash(s):
     alp = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890:-'
     m = 10**9 + 9
